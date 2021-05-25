@@ -23,7 +23,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        if [ -f requirements.txt ]; then pip install -r requrements.txt; fi
+        pip install -r requrements.txt
     - name: Programme
       run: |
         # stop the build if there are Python syntax errors or undefined names
