@@ -17,7 +17,7 @@ This is simple Bot setup for working with whatsapp and sms.
 
 
 
-## Installation
+## Installation for WhatsAppTwillio
 
 We requires [Python](https://www.python.org/)  to run.
 And we need [TWilio](https://www.twilio.com/docs/whatsapp/) API acess to work as a gateway
@@ -26,7 +26,30 @@ Install the dependencies and devDependencies and start the server.
 
 ```sh
 cd WhatsAPP-Sms-Bot
-pip install -r requrements,txt
+pip install -r requrements.txt
+
+```
+To run WhatsAppTwillio
+```
+python WhatsAppTwilio.py
 
 ```
 
+
+## Installation for WhatsAppCHATAPI
+
+We requires [Python](https://www.python.org/)  to run.
+And we need [CHATAPI](https://chat-api.com/en/?lang=EN) API acess to work as a gateway
+
+Install the dependencies and devDependencies and start the server.
+
+```sh
+cd WhatsAPP-Sms-Bot
+pip install -r requrements.txt
+
+```
+To run WhatsAppCHATAPI
+```
+python WhatsAppCHATAPI.py
+
+```
